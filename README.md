@@ -1,6 +1,6 @@
 # 🐾 Pets First (PF) Veterinary Database System
 
-This project implements a complete **relational and NoSQL database solution** for **Pets First**, a fictional network of veterinary clinics. The system models clinics, vets, animals, visits, and treatments using **Oracle SQL** and extends to **MongoDB** for advanced JSON-based data representation and flexible queries.
+This project implements a complete **relational and NoSQL database solution** for Pets First, a fictional network of veterinary clinics. The system models clinics, vets, animals, visits, and treatments using Oracle SQL and extends to MongoDB for advanced JSON-based data representation and flexible queries.
 
 ## 📦 Project Structure
 
@@ -73,3 +73,4 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University.
+
