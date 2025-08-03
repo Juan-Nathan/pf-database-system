@@ -4,17 +4,15 @@ This project implements a complete **relational and NoSQL database solution** fo
 
 ## 📦 Project Structure
 
-| File Name                  | Description |
-|--------------------------- |-------------|
-| `T1-pf-ddl.sql`            | DDL statements: `CREATE TABLE`, `ALTER TABLE`, and constraints |
-| `T2-pf-inserts.sql`        | Valid `INSERT` statements for visits, services, and drugs |
-| `T3-pf-dml.sql`            | DML operations: sequences, inserting visits, assigning services and drugs |
-| `T4-pf-updates.sql`        | Modifications to the database for new business rules |
-| `T5-pf-plsql.sql`          | PL/SQL trigger and procedure:
-  - `check_visit_service_cost`: Ensures service cost within ±10% of standard
-  - `prc_followup_visit`: Automates follow-up visit insertion |
-| `T6-pf-json.sql`           | SQL query to export clinic and vet data in JSON format |
-| `T6-pf-mongo.mongodb.js`   | MongoDB script to create and manipulate JSON documents for clinics and vets |
+| File Name              | Description |
+|------------------------|-------------|
+| `pf-ddl.sql`           | DDL statements: `CREATE TABLE`, `ALTER TABLE`, and constraints |
+| `pf-inserts.sql`       | Valid `INSERT` statements for visits, services, and drugs |
+| `pf-dml.sql`           | DML operations: sequences, inserting visits, assigning services and drugs |
+| `pf-updates.sql`       | Modifications to the database for new business rules |
+| `pf-plsql.sql`         | PL/SQL trigger and procedure:<br>• `check_visit_service_cost`: Ensures service cost within ±10% of standard<br>• `prc_followup_visit`: Automates follow-up visit insertion |
+| `pf-json.sql`          | SQL query to export clinic and vet data in JSON format |
+| `pf-mongo.mongodb.js`  | MongoDB script to create and manipulate JSON documents for clinics and vets |
 
 ## 🧰 Technologies Used
 
@@ -75,3 +73,4 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 
 
 Developed by Juan Nathan for FIT3171 at Monash University.
+
