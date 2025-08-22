@@ -2,7 +2,7 @@
 
 This project involves creating, populating, and manipulating a relational database in Oracle SQL and exporting data for MongoDB. It implements a complete schema based on the Pets First case study — a fictional network of veterinary clinics — including realistic data population, DML operations, structural modifications, PL/SQL triggers and procedures, and JSON export for NoSQL integration.
 
-## 📦 Project Structure
+## Project Structure
 
 | File Name                | Description |
 |--------------------------|-------------|
@@ -15,7 +15,7 @@ This project involves creating, populating, and manipulating a relational databa
 | `pf-json.sql`                | SQL query to export clinic and vet data as nested JSON |
 | `pf-mongo.mongodb.js`        | MongoDB script to load and manipulate the JSON documents |
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Oracle SQL**
   - DDL and DML scripting
@@ -27,7 +27,7 @@ This project involves creating, populating, and manipulating a relational databa
   - Queries with `$in`, `$push`, `$set`, and `$inc`
   - Data manipulation via `insertMany()` and `updateOne()`
 
-## ✨ Key Features
+## Key Features
 
 - **Referential Integrity**: Enforced through foreign key constraints and valid inserts.
 - **Business Rule Enforcement**: Trigger restricts service pricing deviations beyond 10%.
@@ -35,7 +35,7 @@ This project involves creating, populating, and manipulating a relational databa
 - **Hybrid SQL-NoSQL Design**: Combines structured relational storage with document-style JSON/MongoDB views for flexibility and analytics.
 - **Test Harnesses**: All triggers and procedures are supported with robust test cases for validation.
 
-## 🧪 Sample JSON Structure
+## Sample JSON Structure
 
 Each MongoDB document represents a clinic, its head vet, and all associated vets:
 
@@ -73,3 +73,4 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
