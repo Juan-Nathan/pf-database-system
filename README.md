@@ -30,7 +30,7 @@ This project involves creating, populating, and manipulating a relational databa
 ## Key Features
 
 - **Referential Integrity**: Enforced through foreign key constraints and valid inserts.
-- **Business Rule Enforcement**: Trigger restricts service pricing deviations greater than ±10%.
+- **Business Rule Enforcement**: Trigger restricts service pricing deviations beyond or under 10%.
 - **Automation via Procedures**: Follow-up visits are scheduled with inherited data from previous visits.
 - **Hybrid SQL-NoSQL Design**: Combines structured relational storage with document-style JSON/MongoDB views for flexibility and analytics.
 - **Test Harnesses**: All triggers and procedures are supported with robust test cases for validation.
@@ -73,6 +73,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
