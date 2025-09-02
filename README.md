@@ -1,6 +1,6 @@
 # 🐾 Pets First Veterinary Database System
 
-This project involves creating, populating, and manipulating a relational database in Oracle Database, with data exported as JSON for MongoDB integration. It implements a complete schema for Pets First (PF)—a fictional network of veterinary clinics—with realistic data population, schema modifications, and business rules enforced through triggers and procedures.
+This project involves creating, populating, and manipulating a relational database in Oracle Database, with data exported as JSON for MongoDB integration. It implements a complete schema for Pets First (PF)—a fictional network of veterinary clinics—featuring realistic data population, schema modifications, and business rules enforced through triggers and procedures.
 
 ## Project Structure
 
@@ -10,7 +10,7 @@ This project involves creating, populating, and manipulating a relational databa
 | `pf-ddl.sql`                 | Defines remaining schema: `CREATE TABLE`, `ALTER TABLE`, and constraints for `visit`, `visit_service`, and `visit_drug` |
 | `pf-inserts.sql`             | Inserts realistic visit records with detailed service and drug data                                                   |
 | `pf-dml.sql`                 | DML operations: sequences, inserting visits, assigning services and drugs                                             |
-| `pf-mods.sql`                | Schema and data updates to support new business rules                                                                 |
+| `pf-mods.sql`                | Schema and data updates to support new requirements                                                                 |
 | `pf-plsql.sql`               | Trigger and procedure:<br>• `check_visit_service_cost`: Validates service charges<br>• `prc_followup_visit`: Inserts follow-up visits |
 | `pf-json.sql`                | SQL query to export clinic and vet data as nested JSON                                                                |
 | `pf-mongo.mongodb.js`        | MongoDB script to load and manipulate the JSON documents                                                              |
@@ -73,6 +73,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
