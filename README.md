@@ -17,7 +17,7 @@ This project involves creating, populating, and manipulating a relational databa
 
 ## Technologies Used
 
-- **Oracle SQL**
+- **Oracle Database**
   - DDL and DML scripting
   - PL/SQL trigger and procedure development
   - JSON generation via `JSON_OBJECT` and `JSON_ARRAYAGG`
@@ -73,4 +73,5 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
