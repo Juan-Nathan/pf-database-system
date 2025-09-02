@@ -4,16 +4,16 @@ This project involves creating, populating, and manipulating a relational databa
 
 ## Project Structure
 
-| File Name                    | Description |
-|------------------------------|-------------|
-| `pf-initialSchemaInsert.sql` | Creates and populates base schema tables (`animal`, `clinic`, `drug`, etc.)        |
+| File Name                    | Description                                                                                                           |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| `pf-initialSchemaInsert.sql` | Creates and populates base schema tables (`animal`, `clinic`, `drug`, etc.)                                           |
 | `pf-ddl.sql`                 | Defines remaining schema: `CREATE TABLE`, `ALTER TABLE`, and constraints for `visit`, `visit_service`, and `visit_drug` |
-| `pf-inserts.sql`             | Inserts realistic visit records with detailed service and drug data |
-| `pf-dml.sql`                 | DML operations: sequences, inserting visits, assigning services and drugs   |
-| `pf-mods.sql`                | Schema and data updates to support new business rules |
+| `pf-inserts.sql`             | Inserts realistic visit records with detailed service and drug data                                                   |
+| `pf-dml.sql`                 | DML operations: sequences, inserting visits, assigning services and drugs                                             |
+| `pf-mods.sql`                | Schema and data updates to support new business rules                                                                 |
 | `pf-plsql.sql`               | Trigger and procedure:<br>• `check_visit_service_cost`: Validates service charges<br>• `prc_followup_visit`: Inserts follow-up visits |
-| `pf-json.sql`                | SQL query to export clinic and vet data as nested JSON |
-| `pf-mongo.mongodb.js`        | MongoDB script to load and manipulate the JSON documents |
+| `pf-json.sql`                | SQL query to export clinic and vet data as nested JSON                                                                |
+| `pf-mongo.mongodb.js`        | MongoDB script to load and manipulate the JSON documents                                                              |
 
 ## Technologies Used
 
@@ -73,6 +73,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
