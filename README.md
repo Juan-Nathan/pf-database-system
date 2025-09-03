@@ -4,7 +4,7 @@ This project involves creating, populating, and manipulating a relational databa
 
 ## Project Structure
 
-| File Name                       | Description                                                                                                                                                         |
+| File                            | Description                                                                                                                                                         |
 |------------------------------   |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `01-pf-initialSchemaInsert.sql` | Defines and populates base schema tables (`animal`, `clinic`, `drug`, etc.)                                                                                         |
 | `02-pf-schema.sql`              | Creates remaining schema tables: `visit`, `visit_service`, and `visit_drug` with keys and constraints                                                               |
@@ -66,6 +66,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
