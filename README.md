@@ -26,7 +26,7 @@ This project involves creating, populating, and manipulating a relational databa
 - **Service Pricing Integrity**: Trigger enforces a ±10% limit on service charge deviations
 - **Follow-Up Visit Automation**: Procedure schedules follow-up visits with inherited data from previous visits.
 - **Test Harnesses**: Trigger and procedure are supported with robust test cases for validation.
-- **Hybrid SQL-NoSQL Architecture**: Integrates relational schema with JSON/MongoDB documents to balance structured storage and flexibility.
+- **Hybrid SQL-NoSQL Architecture**: Integrates relational schema with JSON/MongoDB documents to support both structured storage and flexible data handling.
 
 ## Sample JSON Structure
 
@@ -66,6 +66,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
