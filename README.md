@@ -1,4 +1,4 @@
-# 🐾 Pets First Veterinary Database System
+# 🐾 Pets First Database System
 
 This project involves creating, populating, and manipulating a relational database in **Oracle Database**, with data exported as JSON for **MongoDB** integration. It implements a complete schema for **Pets First (PF)**—a fictional network of veterinary clinics—featuring realistic data population, schema modifications, and business rules enforced through triggers and procedures.
 
@@ -14,11 +14,6 @@ This project involves creating, populating, and manipulating a relational databa
 | `06-pf-plsql.sql`               | Creates trigger and procedure for visits:<br>• `check_visit_service_cost`: Validates service charges for visits<br>• `prc_followup_visit`: Inserts follow-up visits |
 | `07-pf-json.sql`                | Exports clinic and vet data as nested JSON using SQL query                                                                                                          |
 | `08-pf-mongo.mongodb.js`        | Loads and manipulates JSON documents in MongoDB                                                                                                                     |
-
-## Technologies Used
-
-- **Database Platforms**: Oracle Database, MongoDB
-- **Languages**: SQL (DDL/DML), PL/SQL, MongoDB Query Language (MQL)
 
 ## Key Features
 
@@ -63,9 +58,15 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 }
 ```
 
+## Technologies Used
+
+- **Database Platforms**: Oracle Database, MongoDB
+- **Languages**: SQL (DDL/DML), PL/SQL, MongoDB Query Language
+
 ## 👤 Author
 
 Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+
 
 
 
