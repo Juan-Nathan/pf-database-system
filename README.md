@@ -65,7 +65,8 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 
 ## 👤 Author
 
-Developed by Juan Nathan for FIT3171 at Monash University Malaysia.
+Developed by Juan Nathan.
+
 
 
 
