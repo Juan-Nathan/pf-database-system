@@ -63,9 +63,10 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 - **Database Platforms**: Oracle Database, MongoDB
 - **Languages**: SQL (DDL/DML), PL/SQL, MongoDB Query Language
 
-## 👤 Author
+## Author
 
 Developed by Juan Nathan.
+
 
 
 
