@@ -1,6 +1,6 @@
 # 🐾 Pets First Database System
 
-This project involves creating, populating, and manipulating a relational database in **Oracle Database** using SQL and PL/SQL, with JSON export for **MongoDB** integration. It implements a complete schema for **Pets First (PF)**—a fictional network of veterinary clinics—featuring realistic data population, schema modifications, and business rules enforced through triggers and procedures.
+This project involves creating, populating, and manipulating a relational database in **Oracle Database** using SQL and PL/SQL, with JSON export for **MongoDB** integration. It implements a complete schema for **Pets First (PF)**—a fictional network of veterinary clinics—featuring realistic data population, schema modifications, and enforcement of business rules through triggers and procedures.
 
 ## Project Structure
 
@@ -21,7 +21,7 @@ This project involves creating, populating, and manipulating a relational databa
 - **Service Pricing Integrity**: Trigger enforces a ±10% limit on service charge deviations.
 - **Follow-Up Visit Automation**: Procedure schedules follow-up visits with inherited data from previous visits.
 - **Test Harnesses**: Trigger and procedure are supported with robust test cases for validation.
-- **Hybrid SQL-NoSQL Architecture**: Integrates relational schema with JSON/MongoDB documents to support both structured storage and flexible data handling.
+- **Hybrid SQL-NoSQL Architecture**: Integrates relational schema with MongoDB documents to support both structured storage and flexible data handling.
 
 ## Sample JSON Structure
 
@@ -66,6 +66,7 @@ Each MongoDB document represents a clinic, its head vet, and all associated vets
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
